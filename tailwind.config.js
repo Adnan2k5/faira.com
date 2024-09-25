@@ -11,6 +11,9 @@ module.exports = {
   theme: {
     fontFamily: {
       brush: ["brush,sans-serif"],
+      comic: ["comic,sans-serif"],
+      rubik: ["rubik,sans-serif"],
+      brown: ["brown,sans-serif"],
     },
     container: {
       center: true,

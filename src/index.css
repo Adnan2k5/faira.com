@@ -8,3 +8,18 @@
     font-family: "brush";
     src: url("./assets/KolkerBrush-Regular.ttf");
   }
+
+@font-face {
+  font-family: "comic";
+  src: url("./assets/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "rubik";
+  src: url("./assets/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "brown";
+  src: url('./assets/brown-sugar.ttf');
+}
