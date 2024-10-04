@@ -7,7 +7,7 @@ export const Magic = () => {
     <div id="magic" className="w-full">
       <div className="container gap-12 flex flex-col justify-center items-center">
         <div className="title md:text-4xl text-3xl mt-5">
-          <h1 className="font-rubik font-semibold">
+          <h1 className="font-rubik font-semibold border-b-[2px]">
             Embrace the Magic of Faira
           </h1>
         </div>

@@ -6,6 +6,7 @@ import { Pitch } from "./Pitch";
 import { Magic } from "./Magic";
 import whatsapp from "@/assets/whatsapp.png";
 import { Contact } from "./Contact";
+import { Gallery } from "./Gallery";
 
 //#FEF7F7  #f5a9a9  #F9F9F9
 
@@ -63,6 +64,9 @@ export const Home = () => {
       </div>
       <div className="magic mt-24 w-[90vw] m-auto p-5">
         <Magic/>
+      </div>
+      <div className="gallery mt-24 w-[90vw] m-auto p-5">
+        <Gallery/>
       </div>
       <div className="contact mt-32">
         <Contact/>
