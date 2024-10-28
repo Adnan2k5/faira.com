@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import React from "react";
-import faira from "@/assets/faira3.jpeg";
+import faira from "@/assets/fairabanner.png";
 import { About } from "./About";
 import { Pitch } from "./Pitch";
 import { Magic } from "./Magic";
@@ -14,11 +14,6 @@ export const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="whatsapp fixed left-1 bottom-5">
-        <a href="#">
-          <img src={whatsapp} alt="whatsapp" className="w-10 h-10" />
-        </a>
-      </div>
       <div id="home" className="main mt-24 bg-[#F9F9F9]  m-auto h-screen p-5">
         <div className="mainbox m-auto flex w-[90vw]  md:h-[60vh]  lg:h-[60vh] h-[40vh]">
           <div className="image w-[90vw]">  

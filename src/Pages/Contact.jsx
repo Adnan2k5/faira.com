@@ -19,26 +19,6 @@ export const Contact = () => {
         </div>
         <div className="footer text-white flex flex-col gap-5 justify-around items-center border-t-2  w-full border-white/30">
           <footer> Faira Beauty Cream. &copy; All rights reserved</footer>
-          <footer className="">
-            <ul className="flex justify-around items-center gap-1 w-full">
-              <li className="flex items-center">
-                <GoDotFill />
-              </li>
-              <li>
-                <Link
-                  to="about"
-                  smooth={true}
-                  duration={1000}
-                  className="cursor-pointer"
-                >
-                  About
-                </Link>
-              </li>
-              <li className="flex items-center">
-                <GoDotFill />
-              </li>
-            </ul>
-          </footer>
         </div>
       </div>
     </div>
