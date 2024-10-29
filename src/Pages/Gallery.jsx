@@ -10,7 +10,7 @@ import fairaprod3 from "../assets/fairaprod3.jpeg"
 export const Gallery = () => {
   return (
     <div>
-      <div className="title flex justify-center">
+      <div  className="title flex justify-center">
         <h1 className="text-3xl md:text-4xl text-center border-b-[2px] w-fit font-rubik font-semibold">
           Product Gallery
         </h1>

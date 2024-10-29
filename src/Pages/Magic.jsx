@@ -59,12 +59,12 @@ export const Magic = () => {
               </div>
             </li>
             <li>
-              <div className="card md:w-[30vw] xl:w-[20vw] w-[70vw]  h-[40vh] rounded-xl border-2 border-[#F2F2F2]">
+              <div  className="card md:w-[30vw] xl:w-[20vw] w-[70vw]  h-[40vh] rounded-xl border-2 border-[#F2F2F2]">
                 <div className="content flex flex-col gap-5 justify-center p-5">
                   <div className="icon mt-5 ml-5 text-4xl">
                     <h1>5K+</h1>
                   </div>
-                  <div className="text flex flex-col gap-2 mt-2">
+                  <div id="prod" className="text flex flex-col gap-2 mt-2">
                     <h1 className="text-lg">Satisfied Customers</h1>
                     <p className="text-sm">
                     With over 5,000 satisfied customers, Faira is trusted for delivering beauty products that truly make a difference.
