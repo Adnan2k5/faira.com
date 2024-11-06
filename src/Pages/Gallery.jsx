@@ -9,8 +9,9 @@ import fairaprod3 from "../assets/fairaprod3.jpeg"
 
 export const Gallery = () => {
   return (
-    <div>
-      <div  className="title flex justify-center">
+    <div className="md:flex">
+      <div className="pics">
+      <div  className="title flex  justify-center">
         <h1 className="text-3xl md:text-4xl text-center border-b-[2px] w-fit font-rubik font-semibold">
           Product Gallery
         </h1>
@@ -32,7 +33,8 @@ export const Gallery = () => {
             className="hover:scale-110 duration-500 w-[40vh] h-[30vh] rounded-xl border-2 border-[#F2F2F2]"
           />
       </div>
-      <div className="lab mt-10">
+      </div>
+      <div className="lab">
         <div className="title flex justify-center">
           <h1 className="text-3xl md:text-4xl text-center border-b-[2px] w-fit font-rubik font-semibold">Our Lab</h1>
         </div>

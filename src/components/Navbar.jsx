@@ -28,25 +28,19 @@ export const Navbar = () => {
     <div>
       <div
         className={`flex fixed top-0 transition-all duration-200 ${scrolled ? `bg-[#f7dada] backdrop-blur-md` : `bg-transparent`} left-0 z-50 p-2 items-center justify-center w-[100vw] h-[20vh] backdrop-blur-xl bg-transparent`}>
-        <div className="nav w-[90vw] justify-center  flex flex-col m-auto">
+        <div className="nav w-[90vw] justify-between  flex  m-auto">
           <div className="nav-logo flex items-center p-2 justify-center">
-            <img src={logo} height={60} width={60} alt="Faira"/>
+            <h1 className="font-brown text-4xl">Faira</h1>
           </div>
           <div className="flex components items-center justify-center text-[#f5a9a9]">
             <ul className="hidden items-center   transition-all duration-300 md:flex lg:flex gap-5">
               <li className="hover:text-[#3a3d3c] duration-300 cursor-pointer">
-                <Link to="prod" className="text-2xl font-comic" smooth={true} duration={500}> Beauty Products</Link> 
+                <Link to="prod" className="text-lg " smooth={true} duration={500}> Beauty Products</Link> 
               </li>
               <li className="hover:text-[#484643] duration-300 cursor-pointer">
-               <Link to="about" className="text-2xl font-comic" smooth={true} duration={500}>About Us</Link> 
+               <Link to="about" className="text-lg" smooth={true} duration={500}>About Us</Link> 
               </li>
             </ul>
-            <p  
-              onClick={() => setOpen(!open)}
-              className={`cursor-pointer visible md:hidden lg:hidden ${open ? "text-white" : "text-[#f5a9a9]"}`}
-            >
-              <GiHamburgerMenu />
-            </p>
           </div>
         </div>
       </div>
