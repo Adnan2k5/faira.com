@@ -7,11 +7,11 @@ export const Magic = () => {
     <div id="magic" className="w-full">
       <div className="container gap-12 flex flex-col justify-center items-center">
         <div className="title md:text-4xl text-3xl mt-5">
-          <h1 className="font-rubik font-semibold border-b-[2px]">
+          <h1 className="font-rubik font-semibold border-b-[2px] text-white">
             Embrace the Magic of Faira
           </h1>
         </div>
-        <div className="contents">
+        <div className="contents text-white">
           <ul className="flex flex-col md:flex-wrap justify-center md:flex-row xl:flex-nowrap   gap-4 mt-12">
             <li>
               <div className="card md:w-[30vw] xl:w-[20vw] w-[70vw] h-[40vh] rounded-xl border-2 border-[#F2F2F2]">

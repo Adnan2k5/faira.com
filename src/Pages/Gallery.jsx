@@ -12,7 +12,7 @@ export const Gallery = () => {
     <div className="md:flex">
       <div className="pics">
       <div  className="title flex  justify-center">
-        <h1 className="text-3xl md:text-4xl text-center border-b-[2px] w-fit font-rubik font-semibold">
+        <h1 className="text-3xl md:text-4xl text-center border-b-[2px] w-fit text-white font-rubik font-semibold">
           Product Gallery
         </h1>
       </div>
@@ -36,7 +36,7 @@ export const Gallery = () => {
       </div>
       <div className="lab">
         <div className="title flex justify-center">
-          <h1 className="text-3xl md:text-4xl text-center border-b-[2px] w-fit font-rubik font-semibold">Our Lab</h1>
+          <h1 className="text-3xl md:text-4xl text-center border-b-[2px] w-fit font-rubik font-semibold text-white">Our Lab</h1>
         </div>
         <div className="collage flex flex-col md:flex-wrap md:flex-row w-full items-start justify-center gap-10 mt-5">
           <img

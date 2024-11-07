@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 export const Contact = () => {
   return (
     <div>
-      <div className="box bg-[#130E1D] flex flex-col gap-20 items-center p-5 w-screen h-[80vh]">
+      <div className="box bg-black flex flex-col gap-20 items-center p-5 w-screen h-[80vh]">
         <div className="side flex fle-col w-full h-[50vh]">
           <div className="title p-5 flex flex-col justify-center text-white">
             <h1 className="text-[4rem] font-brown text-center">Faira</h1>

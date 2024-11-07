@@ -3,6 +3,9 @@
 @tailwind utilities;
   
 
+*{
+  background-color: black;
+}
 
 @font-face {
     font-family: "brush";

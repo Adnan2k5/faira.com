@@ -17,10 +17,10 @@ export const Home = () => {
   return (
     <div>
       <Navbar />
-      <div id="home" className="main mt-24 bg-[#F9F9F9]  m-auto h-screen p-5">
+      <div id="home" className="main mt-24 bg-black m-auto h-screen p-5">
         <div className="hero rounded-2xl m-auto flex flex-col border-b  justify-center items-center w-[90vw] h-[60vh]">
           <img src={prod3} alt="product" className="md:w-1/2 w-full h-full" />
-          <p className="-mt-[10vh] text-3xl font-brown">Faira Beauty Cream</p>
+          <p className="-mt-[10vh] text-3xl text-white font-brown">Faira Beauty Cream</p>
         </div>
         <div className="product gap-8 p-2 h-[40vh] md:h-[30vh]  text-[#444444] flex flex-col md:flex-row lg:flex-row xl:flex-row justify-center items-center m-auto  w-[90%]">
           <div className="title">
@@ -37,7 +37,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div id="abouts" className="about mt-24 w-[90vw] m-auto p-5">
+      <div id="abouts" className="about bg-black mt-24 w-[90vw] m-auto p-5">
         <About />
       </div>
       <div className="pitch mt-18 w-[90vw] m-auto p-5">
